@@ -1,0 +1,20 @@
+﻿  HelloOpenCL.cpp
+HelloOpenCL.obj : error LNK2019: 无法解析的外部符号 _clGetPlatformIDs@12，该符号在函数 "struct _cl_context * __cdecl CreateContext(void)" (?CreateContext@@YAPAU_cl_context@@XZ) 中被引用
+HelloOpenCL.obj : error LNK2019: 无法解析的外部符号 _clCreateContextFromType@24，该符号在函数 "struct _cl_context * __cdecl CreateContext(void)" (?CreateContext@@YAPAU_cl_context@@XZ) 中被引用
+HelloOpenCL.obj : error LNK2019: 无法解析的外部符号 _clReleaseContext@4，该符号在函数 "void __cdecl Cleanup(struct _cl_context *,struct _cl_command_queue *,struct _cl_program *,struct _cl_kernel *,struct _cl_mem * * const)" (?Cleanup@@YAXPAU_cl_context@@PAU_cl_command_queue@@PAU_cl_program@@PAU_cl_kernel@@QAPAU_cl_mem@@@Z) 中被引用
+HelloOpenCL.obj : error LNK2019: 无法解析的外部符号 _clGetContextInfo@20，该符号在函数 "struct _cl_command_queue * __cdecl CreateCommandQueue(struct _cl_context *,struct _cl_device_id * *)" (?CreateCommandQueue@@YAPAU_cl_command_queue@@PAU_cl_context@@PAPAU_cl_device_id@@@Z) 中被引用
+HelloOpenCL.obj : error LNK2019: 无法解析的外部符号 _clCreateCommandQueue@20，该符号在函数 "struct _cl_command_queue * __cdecl CreateCommandQueue(struct _cl_context *,struct _cl_device_id * *)" (?CreateCommandQueue@@YAPAU_cl_command_queue@@PAU_cl_context@@PAPAU_cl_device_id@@@Z) 中被引用
+HelloOpenCL.obj : error LNK2019: 无法解析的外部符号 _clReleaseCommandQueue@4，该符号在函数 "void __cdecl Cleanup(struct _cl_context *,struct _cl_command_queue *,struct _cl_program *,struct _cl_kernel *,struct _cl_mem * * const)" (?Cleanup@@YAXPAU_cl_context@@PAU_cl_command_queue@@PAU_cl_program@@PAU_cl_kernel@@QAPAU_cl_mem@@@Z) 中被引用
+HelloOpenCL.obj : error LNK2019: 无法解析的外部符号 _clCreateBuffer@24，该符号在函数 "bool __cdecl CreateMemObjects(struct _cl_context *,struct _cl_mem * * const,float *,float *)" (?CreateMemObjects@@YA_NPAU_cl_context@@QAPAU_cl_mem@@PAM2@Z) 中被引用
+HelloOpenCL.obj : error LNK2019: 无法解析的外部符号 _clReleaseMemObject@4，该符号在函数 "void __cdecl Cleanup(struct _cl_context *,struct _cl_command_queue *,struct _cl_program *,struct _cl_kernel *,struct _cl_mem * * const)" (?Cleanup@@YAXPAU_cl_context@@PAU_cl_command_queue@@PAU_cl_program@@PAU_cl_kernel@@QAPAU_cl_mem@@@Z) 中被引用
+HelloOpenCL.obj : error LNK2019: 无法解析的外部符号 _clCreateProgramWithSource@20，该符号在函数 "struct _cl_program * __cdecl CreateProgram(struct _cl_context *,struct _cl_device_id *,char const *)" (?CreateProgram@@YAPAU_cl_program@@PAU_cl_context@@PAU_cl_device_id@@PBD@Z) 中被引用
+HelloOpenCL.obj : error LNK2019: 无法解析的外部符号 _clReleaseProgram@4，该符号在函数 "void __cdecl Cleanup(struct _cl_context *,struct _cl_command_queue *,struct _cl_program *,struct _cl_kernel *,struct _cl_mem * * const)" (?Cleanup@@YAXPAU_cl_context@@PAU_cl_command_queue@@PAU_cl_program@@PAU_cl_kernel@@QAPAU_cl_mem@@@Z) 中被引用
+HelloOpenCL.obj : error LNK2019: 无法解析的外部符号 _clBuildProgram@24，该符号在函数 "struct _cl_program * __cdecl CreateProgram(struct _cl_context *,struct _cl_device_id *,char const *)" (?CreateProgram@@YAPAU_cl_program@@PAU_cl_context@@PAU_cl_device_id@@PBD@Z) 中被引用
+HelloOpenCL.obj : error LNK2019: 无法解析的外部符号 _clGetProgramBuildInfo@24，该符号在函数 "struct _cl_program * __cdecl CreateProgram(struct _cl_context *,struct _cl_device_id *,char const *)" (?CreateProgram@@YAPAU_cl_program@@PAU_cl_context@@PAU_cl_device_id@@PBD@Z) 中被引用
+HelloOpenCL.obj : error LNK2019: 无法解析的外部符号 _clCreateKernel@12，该符号在函数 _main 中被引用
+HelloOpenCL.obj : error LNK2019: 无法解析的外部符号 _clReleaseKernel@4，该符号在函数 "void __cdecl Cleanup(struct _cl_context *,struct _cl_command_queue *,struct _cl_program *,struct _cl_kernel *,struct _cl_mem * * const)" (?Cleanup@@YAXPAU_cl_context@@PAU_cl_command_queue@@PAU_cl_program@@PAU_cl_kernel@@QAPAU_cl_mem@@@Z) 中被引用
+HelloOpenCL.obj : error LNK2019: 无法解析的外部符号 _clSetKernelArg@16，该符号在函数 _main 中被引用
+HelloOpenCL.obj : error LNK2019: 无法解析的外部符号 _clEnqueueReadBuffer@36，该符号在函数 _main 中被引用
+HelloOpenCL.obj : error LNK2019: 无法解析的外部符号 _clEnqueueNDRangeKernel@36，该符号在函数 _main 中被引用
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\opencl.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Users\Administrator\source\repos\HelloOpenCL\Debug\HelloOpenCL.exe : fatal error LNK1120: 17 个无法解析的外部命令

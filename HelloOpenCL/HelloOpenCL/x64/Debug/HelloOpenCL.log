@@ -1,0 +1,12 @@
+﻿E:\VisualStudio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(HelloOpenCL.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  main.cpp
+c:\users\administrator\source\repos\helloopencl\helloopencl\main.cpp(52): warning C4244: “=”: 从“float”转换到“char”，可能丢失数据
+c:\users\administrator\source\repos\helloopencl\helloopencl\main.cpp(81): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+c:\users\administrator\source\repos\helloopencl\helloopencl\main.cpp(106): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+c:\users\administrator\source\repos\helloopencl\helloopencl\main.cpp(115): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+c:\users\administrator\source\repos\helloopencl\helloopencl\main.cpp(258): warning C4244: “=”: 从“cl_ulong”转换到“double”，可能丢失数据
+c:\users\administrator\source\repos\helloopencl\helloopencl\main.cpp(283): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+c:\users\administrator\source\repos\helloopencl\helloopencl\main.cpp(284): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+c:\users\administrator\source\repos\helloopencl\helloopencl\main.cpp(292): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+c:\users\administrator\source\repos\helloopencl\helloopencl\main.cpp(294): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+  HelloOpenCL.vcxproj -> C:\Users\Administrator\source\repos\HelloOpenCL\x64\Debug\chapter3.exe
